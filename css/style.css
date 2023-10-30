@@ -1,0 +1,300 @@
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ 
+.clrFix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    line-height: 30px;
+    color:#000 ;
+    font-weight: lighter;
+}
+h1{
+    font-family: 'Alegreya', serif;
+    font-size: 70px;
+    line-height: 90px
+
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    color:#777;
+}
+
+/* home section */
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar{
+    padding-block: 20px;
+}
+.navlogo{
+    width: 30%;
+    float: left;
+   
+    text-align: left;
+}
+.navlogo img{
+    width:50%;
+    
+}
+.navLinks{
+    width: 50%;
+    float: right;
+    
+}
+.navLinks li{
+    float:left;
+   padding: 15px 20px;
+}
+.navLinks a{
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+
+.homeContent{
+    margin-top: 100px;
+}
+.homeContent p{
+    margin-block: 15px;
+    font-size: 24px;
+}
+button{
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.btns :first-child{
+    background-color: #8E7754;
+    border: 1px solid #8E7754;
+}
+.btns :last-child{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+/* end home */
+
+
+/* about section */
+.about{
+    margin-top: 100px;
+}
+.aboutImg{
+    display: inline-block;
+    width: 45%;
+}
+.aboutImg img{
+    width: 100%;
+    border-radius: 5px;
+}
+.aboutContent {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.aboutContent h2{
+    margin-block: 20px;
+    padding-inline:50px;
+}
+.aboutContent p , .aboutContent li{
+    line-height: 24px;
+    margin: 10px;
+    padding-inline: 50px;
+
+}
+.aboutContent img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* end about */
+
+/* location section */
+.location{
+    margin-top: 100px;
+    background-color:#F8F8F8 ;
+}
+.location .container{
+    padding-block: 80px;
+}
+.locationContent{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.locationContent p{
+    margin-block: 20px;
+    line-height: 20px;
+}
+.locationContent h2{
+    padding-block: 20px;
+}
+.locationImg{
+    display: inline-block;
+    width: 45%;
+    padding-left: 50px;
+}
+.locationImg img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* end location */
+/* start backing */
+.backing{
+    margin-top: 100px;
+    text-align: center;
+}
+.backing h2{
+    margin-block: 20px;
+}
+.items{
+    padding-top: 20px;
+}
+.items .item {
+    float: left;
+    width:33.333%
+}
+.item img{
+    width: 100%;
+}
+.item .inner{
+    padding: 20px;
+}
+.item h3{
+    padding-block: 10px;
+}
+/* end baking */
+/* start Contact  */
+.contact{
+    margin-top: 100px;
+    background-color:#F8F8F8 ;
+    padding-block: 100px;
+}
+.contact .contactInfo{
+    width: 50%;
+    float: left;
+}
+.contact .frame{
+    width: 50%;
+    float: left;
+}
+.contactInfo{
+    padding-block: 10px;
+    padding-right: 50px;
+}
+
+.contactInfo p{
+    padding-block: 10px;
+}
+address{
+    font-style: normal;
+}
+address img{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    background-color: #8E7754;
+    margin-right: 8px;
+    text-align: center;
+}
+address li{
+    padding-block: 8px;
+}
+/* end contact */
+/* start info */
+.info{
+    background-color: #403D38;
+}
+.info .infoItem{
+    width: 25%;
+    float: left;
+}
+.info .container{
+    padding-block: 50px;
+}
+.infoItem {
+    padding-inline: 10px;
+}
+.infoItem h3{
+    padding-block: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.infoItem p{
+    padding-bottom: 10px;
+}
+.infoItem span{
+    padding-right: 5px;
+    font-weight: bolder;
+}
+.infoItem li:not(:last-child){
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.infoItem li{
+    padding: 15px 5px;
+}
+.infoItem a{
+    color: #777;
+}
+ .container div:nth-of-type(4) ul{
+   background-image: url("../images/contact-details-map.png")  ;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.infoItem img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* start footer */
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding-block: 60px;
+}
+.footer .social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #484540;
+
+}
+.footer p{
+    padding-block: 10px;
+}
+/* enfd footer */
